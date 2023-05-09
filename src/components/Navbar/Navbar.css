@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 95%;
+}
+
+.nav_list {
+    display: flex;
+    text-decoration: none;
+    gap: 40px;
+    font-size: 22px;
+
+}
+
+.nav_lien{
+    color: #ff6060;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav_lien > a {
+    text-decoration: none;
+    color: #ff6060;
+}
+
+.nav a.active {
+    text-decoration: underline;
+}

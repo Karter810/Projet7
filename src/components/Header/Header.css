@@ -1,0 +1,7 @@
+.header{
+    display: inline-flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
