@@ -2,8 +2,7 @@
     border-radius: 5px;
     margin-bottom: 35px;
     text-align: left;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-inline: 2%;
   }
   
   .header-dropdown {

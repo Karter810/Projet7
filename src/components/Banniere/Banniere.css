@@ -45,3 +45,14 @@
     }
 
 }
+@media screen  and (max-width: 500px) {
+  .banniere-txt {
+    color: #ffffff;
+    font-size: 21px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-80%, -50%);
+  }
+
+}

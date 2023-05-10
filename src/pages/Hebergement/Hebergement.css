@@ -9,8 +9,13 @@
 }
 
 .logements-propietaire {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
+  }
+
+.carousel-container {
+    flex: 1 0 70%;
 }
 
 .logements-propietaire > div {
@@ -64,17 +69,20 @@
 }
 
 .description-equipements {
-    display: inline-flex;
-    gap: 0 75px;
-    line-height: 22.5px;
-    list-style: none;
+    display: inline-flexbox;
+    width: 100%;
     margin-top: 25px;
-    width: 95%;
-}
-
-.description-equipements > .dropdown {
-    width: 50%;
-}
+    margin-left: 0;
+    gap: 1%;
+  }
+  
+  .description-equipements > .dropdown {
+    flex: 1 0 50%;
+    margin-bottom: 25px;
+  }
+  .description-equipements .dropdown{
+    margin-inline: 0;
+  }
 
 @media screen and (max-width: 1490px) {
     .logements-propietaire {
